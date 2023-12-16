@@ -1,5 +1,5 @@
 body{
-			background-color:#F8D76E;
+			background-color:#000228;
 			padding: 0;
 			margin: 0;
 			height: 100vh;
@@ -9,18 +9,18 @@ body{
 			align-items: center;
 		}
 		.player{
-			background-color: #D52F31;
+			background-color: #ff2a6d;
 			width: 330px;
 			height: 190px;
 			border-radius: 8px;
-			box-shadow: 0 8px 0 0 rgb(190, 39, 42) ;
+			box-shadow: 0 8px 0 0 rgb(163, 0, 68) ;
 			position: relative;
 			display: none;
 		}
 		.record{
 			height: 175px;
 			width: 175px;
-			background-color: #181312;
+			background-color: #201547;
 			border-radius: 50%;
 			position: absolute;
 			top:10px;
@@ -35,8 +35,8 @@ body{
 			height: 135px;
 			width: 135px;
 			border:5px solid transparent;
-			border-top:5px solid #2C2424;
-			border-bottom:5px solid #2C2424;
+			border-top:5px solid #31216d;
+			border-bottom:5px solid #31216d;
 			border-radius: 50%;
 		}
 		.record:after{
@@ -45,22 +45,22 @@ body{
 			height: 95px;
 			width: 95px;
 			border:5px solid transparent;
-			border-top:5px solid #2C2424;
-			border-bottom:5px solid #2C2424;
+			border-top:5px solid #31216d;
+			border-bottom:5px solid #31216d;
 			border-radius: 50%;
 		}
 		.label{
 			background-color: #181312;
 			height: 15px;
 			width: 15px;
-			border:20px solid #FF8E00;
+			border:20px solid #05dae8;
 			border-radius: 50%;
 		}
 		.screw{
-			background-color: #181312;
+			background-color: #31216d;
 			height: 17px;
 			width: 17px;
-			border:10px solid #2c2c2c;
+			border:10px solid #181036;
 			border-radius: 50%;
 			position: absolute;
 			top:-16px;
@@ -79,7 +79,7 @@ body{
 		.play{
 			transform:rotate(30deg);
 			transform-origin: top; 
-			transition: 1s;
+			transition: 1.5s;
 		}
 		.stick:before{
 			content: "";
@@ -106,13 +106,13 @@ body{
 		.power{
 			height: 28px;
 			width: 28px;
-			background-color: #ED5650;
+			background-color: #c51e53;
 			border-radius: 50%;
 			position: absolute;
 			bottom: 20px;
 			right: 30px;
 			border:none;
-			border:3.5px solid rgb(190, 39, 42) ;
+			border:3.5px solid #a71745 ;
 			animation-play-state: paused;
 			outline: none;
 		}
@@ -130,8 +130,8 @@ body{
 			height: 7px;
 			-webkit-appearance:none;
 			appearance: none;
-			background-color: rgb(190, 39, 42) ;
-			border:6px solid #ED5650 ;
+			background-color: #c51e53 ;
+			border:6px solid #a71745 ;
 			border-radius: 3px;
 			outline: none;
 			position: absolute;
