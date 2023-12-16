@@ -1,4 +1,4 @@
-/* alert("Use Round Button to play/pause the audio 🔘\nUse Slider to control volume 🎚️" ); */
+alert("Use Round Button to play/pause the audio 🔘\nUse Slider to control volume 🎚️" );
 		var state=0;
 		$(window).load(function(){
              $(".loader").hide();
