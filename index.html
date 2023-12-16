@@ -1,1 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Record Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="loader">LOADING</div>
+    <div class="player">
+        <div class="record">
+            <div class="label"></div>
+        </div>
+        <div class="stick">
+            <div class="screw"></div>
+        </div>
+        <button class="power"></button>
+        <div class="slidecontainer">
+            <input type="range" class="slider" min="0" max="1" step="0.1" value="0.7">
+        </div>
+    </div>
+    <audio loop class="mysong"
+        src="https://nl03.moozix.com/4fc63b4a5cd5719e678a9/Florence%20and%20the%20machine%20-%20Never%20let%20me%20go%20HD.mp3"
+        preload="auto"></audio>
+<script src="script.js"></script>
+</body>
+</html>
